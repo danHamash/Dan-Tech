@@ -448,7 +448,9 @@ footer {
     .carousel-item {
         flex: 0 0 100%;
     }
-
+    .carousel-track {
+    animation: none;
+  }
     .carousel-btn {
         display: none;
     }
