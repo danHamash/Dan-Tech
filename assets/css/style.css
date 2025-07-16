@@ -445,9 +445,7 @@ footer {
         display: flex;
     }
 
-    .carousel-item {
-        flex: 0 0 100%;
-    }
+    
 
     .carousel-btn {
         display: none;
