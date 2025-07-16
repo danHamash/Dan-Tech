@@ -20,7 +20,7 @@
 
     // --- Controles do carrossel ---
   const track = document.getElementById('carousel-track');
-  const scrollAmount = 220;
+  const scrollAmount = 320;
 
   document.querySelector('.carousel-prev').addEventListener('click', () => {
     track.scrollBy({ left: -scrollAmount, behavior: 'smooth' });
