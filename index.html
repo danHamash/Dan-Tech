@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dan Tech • Cursos Online</title>
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+  
+</head>
+<body>
+  <!-- Header & Navigation -->
+  <header>
+    <div class="container nav">
+      <div class="nav__logo">Dan Tech</div>
+      <nav class="nav__menu" id="nav-menu">
+        <a class="nav__link" href="#features">Recursos</a>
+        <a class="nav__link" href="#courses">Cursos</a>
+        <a class="nav__link" href="#pricing">Planos</a>
+        <a class="nav__link" href="#contact">Contato</a>
+      </nav>
+      <div class="hamburger" id="hamburger" aria-label="Abrir menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </div>
+    </div>
+
+    <!-- Hero Section -->
+    <section class="container hero">
+      <div>
+        <h1 class="hero__title" data-animate="1">Domine novas Tecnologias com os melhores especialistas do Mercado.</h1>
+        <p class="hero__subtitle" data-animate="2">Cursos online, ao vivo e gravados, mentoria personalizada e certificado.</p>
+        <a href="#pricing" class="btn btn-primary" data-animate="3">Começar Agora</a>
+      </div>
+      <picture data-animate="2">
+        <source srcset="https://images.unsplash.com/photo-1551434678-e076c223a692?auto=format&fit=crop&w=900&q=60" media="(min-width:768px)" />
+        <img src="https://images.unsplash.com/photo-1551434678-e076c223a692?auto=format&fit=crop&w=600&q=60" alt="Estudante assistindo aula online">
+      </picture>
+    </section>
+  </header>
+
+  <!-- Features Section -->
+  <section id="features" class="features container">
+    <h2 class="section-title" data-animate="1">Por que escolher a Dan Tech?</h2>
+    <div class="features__grid">
+      <div class="feature" data-animate="2">
+        <div class="feature__icon"></div>
+        <h3>Aulas Interativas</h3>
+        <p>Aprenda com vídeos dinâmicos, quizzes e projetos práticos.</p>
+      </div>
+      <div class="feature" data-animate="3">
+        <div class="feature__icon"></div>
+        <h3>Instrutores Especialistas</h3>
+        <p>Profissionais de mercado prontos para compartilhar conhecimento real.</p>
+      </div>
+      <div class="feature" data-animate="4">
+        <div class="feature__icon"></div>
+        <h3>Certificados Reconhecidos</h3>
+        <p>Comprove suas habilidades com certificados aceitos por empresas.</p>
+      </div>
+<div class="feature" data-animate="5">
+        <div class="feature__icon"></div>
+        <h3>Visualização em grandes empreas</h3>
+        <p>Alunos formados atuando em grandes empresas de tecnologia de todo mundo.</p>
+      </div>
+    </div>
+    </div>
+    
+  </section>
+
+  <!-- Courses Section -->
+<section id="courses" class="courses container" style="padding:4rem 0;">
+  <h2 class="section-title" data-animate="1">Nossos Cursos Populares</h2>
+
+  <div class="carousel-container" data-animate="2">
+    <button class="carousel-btn carousel-prev" aria-label="Anterior">&#8249;</button>
+
+    <div class="carousel-track" id="carousel-track">
+      <div class="carousel-item border">
+        <img class="rotate" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-plain.svg" alt="HTML5" />
+        <span class="lang">HTML</span>
+      </div>
+      <div class="carousel-item border">
+        <img class="rotate"  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-plain.svg" alt="CSS3" />
+        <span class="lang">CSS</span>
+      </div>
+      <div class="carousel-item border">
+        <img class="rotate"  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-plain.svg" alt="JavaScript" />
+        <span class="lang">JavaScript</span>
+      </div>
+      <div class="carousel-item border">
+        <img class="rotate"  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-plain.svg" alt="TypeScript" />
+        <span class="lang">TypeScript</span>
+      </div>
+      <div class="carousel-item border">
+        <img class="rotate"  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-plain.svg" alt="Python" />
+        <span class="lang">Python</span>
+      </div>
+      <div class="carousel-item border">
+        <img class="rotate"  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-plain.svg" alt="Java" />
+        <span class="lang">Java</span>
+      </div>
+      <div class="carousel-item border">
+        <img class="rotate"  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-plain.svg" alt="C#" />
+        <span class="lang">C#</span>
+      </div>
+      <div class="carousel-item border">
+        <img class="rotate"  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-plain.svg" alt="PHP" />
+        <span class="lang">PHP</span>
+      </div>
+    </div>
+
+    <button class="carousel-btn carousel-next" aria-label="Próximo">&#8250;</button>
+  </div>
+</section>
+
+  <!-- Testimonials -->
+  <section class="testimonials">
+    <div class="container">
+      <h2 class="section-title" data-animate="1" style="color:#fff; text-align:center; margin-bottom:3rem;">Histórias de Sucesso</h2>
+      <div class="features__grid">
+        <div class="testimonial" data-animate="2">
+          <img src="https://randomuser.me/api/portraits/women/44.jpg" alt="Foto da aluna Maria" />
+          <p>“Consegui minha primeira vaga como desenvolvedora após concluir o curso de Full-Stack!”</p>
+          <h3>Maria Silva</h3>
+        </div>
+        <div class="testimonial" data-animate="3">
+          <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="Foto do aluno João" />
+          <p>“Os projetos práticos me deram confiança para liderar uma equipe de dados na empresa.”</p>
+          <h3>João Pereira</h3>
+        </div>
+        <div class="testimonial" data-animate="4">
+          <img src="https://randomuser.me/api/portraits/women/55.jpg" alt="Foto da aluna Ana" />
+          <p>“A flexibilidade das aulas gravadas encaixou perfeitamente na minha rotina de mãe.”</p>
+          <h3>Ana Costa</h3>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Pricing Section -->
+  <section id="pricing" class="pricing container">
+    <h2 class="section-title" data-animate="1">Planos para Todos os Perfis</h2>
+    <div class="pricing__grid">
+      <div class="plan" data-animate="2">
+        <h3>Básico</h3>
+        <p class="plan__price">R$ 49/mês</p>
+        <ul>
+          <li>Acesso a 50+ cursos</li>
+          <li>Materiais para download</li>
+          <li>Certificado digital</li>
+        </ul>
+        <a href="#" class="btn btn-primary">Assinar</a>
+      </div>
+      <div class="plan" data-animate="3" >
+        <h3>Profissional</h3>
+        <p class="plan__price">R$ 99/mês</p>
+        <ul>
+          <li>Tudo do Básico</li>
+          <li>Projetos guiados</li>
+          <li>Suporte 24/7</li>
+        </ul>
+        <a href="#" class="btn btn-primary">Assinar</a>
+      </div>
+      <div class="plan" data-animate="4">
+        <h3>Premium</h3>
+        <p class="plan__price">R$ 149/mês</p>
+        <ul>
+          <li>Tudo do Profissional</li>
+          <li>Mentoria individual</li>
+          <li>Bônus exclusivos</li>
+        </ul>
+        <a href="#" class="btn btn-primary">Assinar</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Call to Action -->
+  <section class="cta" id="contact">
+    <div class="container" data-animate="1">
+      <h2>Pronto para transformar sua carreira?</h2>
+      <a href="#pricing" class="btn btn-primary">Inscreva-se Agora</a>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      © 2025 Dan Tech. Todos os direitos reservados.
+    </div>
+  </footer>
+
+  <script src="./assets/script/main.js" defer></script>
+</body>
+</html>
